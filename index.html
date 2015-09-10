@@ -26,7 +26,7 @@ path.chord {
 
 </style>
 
-<h1>OpenStack Initiator_id -> Target_id</h1>
+<h1 id="title">OpenStack </h1>
 
 <aside>Mouseover to focus on requests to or from a single id.
 
@@ -133,6 +133,10 @@ function mouseover(d, i) {
     p.target.index != i;
   });
 }
+
+$(function() {
+  $('#title').text('OpenStack ' + trait1 + ' -> ' + trait2);
+});
 
 </script>
 
